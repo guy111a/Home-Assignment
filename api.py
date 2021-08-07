@@ -9,9 +9,6 @@ from pyspark import SQLContext
 sc = SparkContext(conf=SparkConf())
 sqlContext = SQLContext(sc)
 
-# sc = SparkContext('local[*]')
-
-
 # class model(object):
 #     @staticmethod
 #     def transformation_function(a_model):
